@@ -20,23 +20,25 @@ h1 {
     position: absolute;
     width: 50px;
     height: 50px;    
-    background-color: darkslategray;
     border-radius: 25px;
 }
 
-.electron__position-1 {
+.electron__properties-1 {
     left: 300px;
     top: 200px;
+    background-color: darkslategray;
 }
 
-.electron__position-2 {
+.electron__properties-2 {
     left: 725px;
     top: 375px;
+    background-color: yellowgreen;
 }
 
-.electron__position-3 {
+.electron__properties-3 {
     left: 295px;
     top: 550px;
+    background-color: chocolate;
 }
 
 .orbit {

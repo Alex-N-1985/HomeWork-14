@@ -1,0 +1,66 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.canvas {
+    width: 97vw;
+    height: 85vh;
+    margin: 0 1vw;
+}
+
+.electron {
+    position: absolute;
+    width: 50px;
+    height: 50px;    
+    background-color: darkslategray;
+    border-radius: 25px;
+}
+
+.electron__position-1 {
+    left: 300px;
+    top: 200px;
+}
+
+.electron__position-2 {
+    left: 725px;
+    top: 375px;
+}
+
+.electron__position-3 {
+    left: 295px;
+    top: 550px;
+}
+
+.orbit {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 250px/100px;    
+}
+
+.orbit__position-1 {
+    rotate: 45deg;
+    top: 300px;
+    left: 250px
+}
+
+.orbit__position-2 {
+    rotate: -45deg;
+    top: 300px;
+    left: 250px
+}
+
+.orbit__position-3 {
+    rotate: 0;
+    top: 300px;
+    left: 250px
+}

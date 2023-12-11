@@ -19,26 +19,30 @@ h1 {
 .electron {
     position: absolute;
     width: 50px;
-    height: 50px;    
-    border-radius: 25px;
+    height: 50px;
+    border: 3px solid black;    
+    border-radius: 25px;    
 }
 
 .electron__properties-1 {
     left: 300px;
     top: 200px;
     background-color: darkslategray;
+    z-index: 3;
 }
 
 .electron__properties-2 {
     left: 725px;
     top: 375px;
     background-color: yellowgreen;
+    z-index: 3;
 }
 
 .electron__properties-3 {
     left: 295px;
     top: 550px;
     background-color: chocolate;
+    z-index: 3;
 }
 
 .orbit {
@@ -65,4 +69,18 @@ h1 {
     rotate: 0;
     top: 300px;
     left: 250px
+}
+
+.core {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.core__properties {
+    top: 350px;
+    left: 450px;
 }

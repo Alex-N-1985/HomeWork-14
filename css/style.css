@@ -25,7 +25,7 @@ h1 {
 }
 
 .electron__properties-1 {
-    left: 300px;
+    left: 300px; 
     top: 200px;
     background-color: darkslategray;
     z-index: 3;
@@ -39,8 +39,7 @@ h1 {
 }
 
 .electron__properties-3 {
-    left: 295px;
-    top: 550px;
+    left: 295px; top: 550px;
     background-color: chocolate;
     z-index: 3;
 }
@@ -90,11 +89,15 @@ h1 {
 }
 
 .electron__properties-1 {
-    animation: 5s infinite linear atom__move-1;
+    animation: 5s infinite linear electron__move-1;
 }
 
 .electron__properties-2 {
-    animation: 3s infinite linear atom__move-2;
+    animation: 3s infinite linear electron__move-2;
+}
+
+.electron__properties-3 {
+    animation: 4s infinite linear electron__move-3;
 }
 
 @keyframes circle {
@@ -103,19 +106,19 @@ h1 {
     }
 }
 
-@keyframes atom__move-1 {
+@keyframes electron__move-1 {
     from {left: 300px; top: 200px;}
-    12.5% {left: 290px; top: 300px;}
-    25% {left: 390px; top: 440px;}
-    37.5% {left: 560px; top: 550px;}
-    50% {left: 650px; top: 565px;}
-    62.5% {left: 650px; top: 480px}
-    75% {left: 550px; top: 290px;}
-    87.5% {left: 400px; top: 200px}
+    12.5% {left: 420px; top: 210px;}
+    25% {left: 550px; top: 310px;}
+    37.5% {left: 650px; top: 470px;}
+    50% {left: 650px; top: 550px;}
+    62.5% {left: 530px; top: 540px;}
+    75% {left: 400px; top: 440px;}
+    87.5% {left: 300px; top: 300px;}
     to {left: 300px; top: 200px;}
 }
 
-@keyframes atom__move-2 {
+@keyframes electron__move-2 {
     from { left: 725px; top: 375px;}
     12.5% { left: 600px; top: 460px;}
     25% { left: 475px; top: 475px;}
@@ -125,4 +128,16 @@ h1 {
     75% { left: 475px; top: 275px;}
     87.5% { left: 600px; top: 285px;}
     to { left: 725px; top: 375px;}
+}
+
+@keyframes electron__move-3 {
+    from { left: 295px; top: 550px; }
+    12.5% { left: 290px; top: 470px; }
+    25% { left: 400px; top: 310px; }
+    37.5% { left: 500px; top: 225px; }
+    50% { left: 645px; top: 200px; }
+    62.5% { left: 655px; top: 275px; }
+    75% { left: 550px; top: 440px; }
+    87.5% { left: 430px; top: 530px; }
+    to { left: 295px; top: 550px; }
 }

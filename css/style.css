@@ -84,3 +84,45 @@ h1 {
     top: 350px;
     left: 450px;
 }
+
+.core__properties {
+    animation: circle 2s infinite linear;
+}
+
+.electron__properties-1 {
+    animation: 5s infinite linear atom__move-1;
+}
+
+.electron__properties-2 {
+    animation: 3s infinite linear atom__move-2;
+}
+
+@keyframes circle {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes atom__move-1 {
+    from {left: 300px; top: 200px;}
+    12.5% {left: 290px; top: 300px;}
+    25% {left: 390px; top: 440px;}
+    37.5% {left: 560px; top: 550px;}
+    50% {left: 650px; top: 565px;}
+    62.5% {left: 650px; top: 480px}
+    75% {left: 550px; top: 290px;}
+    87.5% {left: 400px; top: 200px}
+    to {left: 300px; top: 200px;}
+}
+
+@keyframes atom__move-2 {
+    from { left: 725px; top: 375px;}
+    12.5% { left: 600px; top: 460px;}
+    25% { left: 475px; top: 475px;}
+    37.5% { left: 300px; top: 450px;}
+    50% { left: 225px; top: 375px;}
+    62.5% { left: 300px; top: 300px;}
+    75% { left: 475px; top: 275px;}
+    87.5% { left: 600px; top: 285px;}
+    to { left: 725px; top: 375px;}
+}
